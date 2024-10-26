@@ -1,0 +1,10 @@
+spring:
+  jpa:
+   properties:
+    hibernate:
+     ddl-auto: update
+     generate-ddl: true
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:spring-security-basic-auth;MODE=MYSQL
+    username: sa
